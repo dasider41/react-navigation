@@ -66,7 +66,7 @@ class HomeScreen extends React.Component {
   }
 }
 
-export default const SimpleApp = StackNavigator({
+const SimpleApp = StackNavigator({
   Home: { screen: HomeScreen },
 });
 
